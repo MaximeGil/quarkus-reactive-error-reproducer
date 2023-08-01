@@ -1,6 +1,6 @@
-#How to reproduce ?
+# How to reproduce ?
 
-## Launch that HTTP request : 
+## Launch the following HTTP request : 
 
 curl --request PUT \
 --url 'http://localhost:8082/api/payins?id=59981081' \
@@ -8,3 +8,4 @@ curl --request PUT \
 --data '{
 "status" : "SUCCEEDED"
 }'
+
