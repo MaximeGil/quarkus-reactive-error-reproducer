@@ -1,0 +1,9 @@
+package io.test.payin.core.pojo.payin.record;
+
+import lombok.Builder;
+
+import java.util.UUID;
+
+@Builder
+public record PayinMetadataPayin(UUID uuid) {
+}
